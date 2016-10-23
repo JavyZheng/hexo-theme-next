@@ -206,7 +206,6 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-#highlight_theme: normal
 highlight_theme: night
 
 
@@ -310,10 +309,10 @@ facebook_comments_plugin:
 
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
-leancloud_visitors:
-  enable: true
-  app_id: BfrOEtOTMfdDJWwdgBAKpLCh-gzGzoHsz
-  app_key: D4jVlUFwat9bBeegp38M8uA2
+#leancloud_visitors:
+#  enable: true
+#  app_id: BfrOEtOTMfdDJWwdgBAKpLCh-gzGzoHsz
+#  app_key: D4jVlUFwat9bBeegp38M8uA2
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
@@ -322,15 +321,15 @@ busuanzi_count:
   enable: true
   # custom uv span for the whole site
   site_uv: true
-  site_uv_header: <i class="fa fa-user"></i>
+  site_uv_header: <i class="fa fa-user">本站访客数</i>
   site_uv_footer:
   # custom pv span for the whole site
   site_pv: true
-  site_pv_header: <i class="fa fa-eye"></i>
+  site_pv_header: <i class="fa fa-eye">本站访问量</i>
   site_pv_footer:
   # custom pv span for one page only
   page_pv: true
-  page_pv_header: <i class="fa fa-file-o"></i>
+  page_pv_header: <i class="fa fa-file-o">本文阅读量</i>
   page_pv_footer:
 
 # Tencent analytics ID
@@ -357,9 +356,9 @@ calendar:
   maxResults: 250
 
 ## reward 
-reward_comment: 觉得有用，请我喝杯咖啡吧
-wechatpay: /images/reward/wechat.png
-alipay: /images/reward/alipay.jpg
+# reward_comment: 觉得有用，请我喝杯咖啡吧
+# wechatpay: /images/reward/wechat.jpeg
+# alipay: /images/reward/alipay.jpg
 
 #! ---------------------------------------------------------------
 #! DO NOT EDIT THE FOLLOWING SETTINGS
