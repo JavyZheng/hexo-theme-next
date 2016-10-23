@@ -14,7 +14,7 @@ keywords: "Hexo, NexT"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2016
 
 # Canonical, set a canonical link tag in your hexo, you could use it for your SEO of blog.
 # See: https://support.google.com/webmasters/answer/139066
@@ -125,7 +125,9 @@ font:
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 #social:
   #LinkLabel: Link
-
+social:
+  GitHub: https://github.com/javyzheng
+  Linkedin: https://hk.linkedin.com/in/yzhengcuhk
 
 # Social Links Icons
 # Icon Mapping:
@@ -139,7 +141,7 @@ social_icons:
   GitHub: github
   Twitter: twitter
   Weibo: weibo
-
+  Linkedin: linkedin
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
@@ -204,7 +206,8 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+#highlight_theme: normal
+highlight_theme: night
 
 
 # Automatically scroll page to section which is under <!-- more --> mark.
@@ -316,7 +319,7 @@ leancloud_visitors:
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
   # count values only if the other configs are false
-  enable: false
+  enable: true
   # custom uv span for the whole site
   site_uv: true
   site_uv_header: <i class="fa fa-user"></i>
@@ -353,6 +356,10 @@ calendar:
   singleEvents: true
   maxResults: 250
 
+## reward 
+reward_comment: 觉得有用，请我喝杯咖啡吧
+wechatpay: /images/reward/wechat.png
+alipay: /images/reward/alipay.jpg
 
 #! ---------------------------------------------------------------
 #! DO NOT EDIT THE FOLLOWING SETTINGS
